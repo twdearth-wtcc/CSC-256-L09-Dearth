@@ -7,9 +7,9 @@ president_names = ['Washington', 'Adams', 'Jefferson', 'Madison', 'Monroe',
                    'Jackson', 'Buren', 'Harrison', 'Tyler', 'Polk',
                    'Taylor', 'Fillmore', 'Pierce', 'Buchanan', 'Lincoln',
                    'Johnson', 'Grant', 'Hayes', 'Garfield', 'Arthur',
-                   'Cleveland', 'Harrison', 'Cleveland', 'McKinley',
+                   'Cleveland', 'McKinley',
                    'Roosevelt', 'Taft', 'Wilson', 'Harding', 'Coolidge',
-                   'Hoover', 'Truman', 'Eisenhower', 'Kennedy', 'Johnson',
+                   'Hoover', 'Truman', 'Eisenhower', 'Kennedy',
                    'Nixon', 'Ford', 'Carter', 'Reagan', 'Bush', 'Clinton',
                    'Obama', 'Trump', 'Biden']
 

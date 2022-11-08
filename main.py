@@ -3,7 +3,8 @@ import requests
 url = 'https://duckduckgo.com/?q=presidents+of+the+united+states&format=json'
 
 
-# Returns DuckDuckGo results for names of the US presidents
+# Returns DuckDuckGo results related to the search "presidents of the united
+#   states"
 def get_pres_names():
     response = requests.get(url)
     resp_json = response.json()
@@ -13,11 +14,8 @@ def get_pres_names():
     return related_results
 
 
-# Runs the main script
+# Runs get_pres_names(), returns search results
 if __name__ == '__main__':
-    names = get_pres_names()
-    # print(type(names[0]))
-    for pres_name in names:
-        print(pres_name.find("Abraham Lincoln"), pres_name)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    results = get_pres_names()
+    for result in results:
+        print(result)
